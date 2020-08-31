@@ -1,0 +1,12 @@
+border-radius(@radius: 10px) {
+    border-radius: @radius;
+    -webkit-border-radius: @radious;
+    -moz-border-radius: @radious;
+
+}
+
+#col {
+    background-color: @color2;
+    padding: 10px;
+    .border-radius;
+}
